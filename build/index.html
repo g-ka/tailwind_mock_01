@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sm:scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,9 +25,9 @@
 
   <main class="max-w-4xl mx-auto">
 
-    <section class="flex justify-center items-center flex-col-reverse sm:flex-row p-6 gap-12 mb-12" id="hero">
-      <article class="sm:w-1/2">
-        <h2 class="text-4xl sm:text-5xl sm:text-left text-center text-slate-500 dark:text-white font-bold max-w-md pointer-events-none capitalize">
+    <section class="flex justify-center items-center flex-col-reverse sm:flex-row p-6 gap-12 mb-12 scroll-mt-20" id="hero">
+      <article class="sm:w-1/2 pointer-events-none">
+        <h2 class="text-4xl sm:text-5xl sm:text-left text-center text-slate-500 dark:text-white font-bold max-w-md capitalize">
           We boldly go <span class="text-indigo-700 dark:text-indigo-300">where no rockets</span> has gone before...          
         </h2>
         <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
@@ -42,10 +42,48 @@
 
     <hr class="bg-black dark:bg-white mx-auto w-1/2" />    
 
-    <section class="p-6 my-12" id="rockets">
+    <section class="p-6 my-12 scroll-mt-20" id="rockets">
       <h2 class="sm:text-5xl text-4xl font-bold text-center mb-6 text-slate-900 dark:text-white">
         Our Rockets
       </h2>
+      <ul class="list-none flex sm:flex-row flex-col mx-auto my-12 items-center gap-8">
+        <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+          <img src="./img/rocketman.png" alt="Explorer" class="w-1/2 mb-6" />
+          <h3 class="text-slate-300 text-center text-3xl dark:text-white">
+            Explorer
+          </h3>
+          <p class="sm:block hidden text-slate-500 text-center text-3xl dark:text-slate-400 mt-2">
+            $
+          </p>
+          <p class="sm:hidden text-slate-500 text-center text-2xl dark:text-slate-400 mt-2">
+            Affordable Exploration
+          </p>
+        </li>
+        <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+          <img src="./img/rocketride.png" alt="Adventurer" class="w-1/2 mb-6" />
+          <h3 class="text-slate-300 text-center text-3xl dark:text-white">
+            Adventurer
+          </h3>
+          <p class="sm:block hidden text-slate-500 text-center text-3xl dark:text-slate-400 mt-2">
+            $$
+          </p>
+          <p class="sm:hidden text-slate-500 text-center text-2xl dark:text-slate-400 mt-2">
+            Best Selling Rocket
+          </p>
+        </li>
+        <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+          <img src="./img/rocketlaunch.png" alt="Infinity" class="w-1/2 mb-6" />
+          <h3 class="text-slate-300 text-center text-3xl dark:text-white">
+            Infinity
+          </h3>
+          <p class="sm:block hidden text-slate-500 text-center text-3xl dark:text-slate-400 mt-2">
+            $$$
+          </p>
+          <p class="sm:hidden text-slate-500 text-center text-2xl dark:text-slate-400 mt-2">
+            Luxury Starship
+          </p>
+        </li>
+      </ul>
     </section>
 
     <hr class="bg-black dark:bg-white mx-auto w-1/2" />   
